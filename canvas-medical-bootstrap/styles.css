@@ -1,0 +1,7 @@
+button {
+  cursor: pointer;
+}
+
+.list-display{
+  display: inline-block;
+}
