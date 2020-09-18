@@ -1,0 +1,250 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1600px;
+  justify-content: center;
+  margin: auto;
+  font-family: Avenir;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: lighter;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+p, li {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+header {
+  min-height: 50px;
+  flex-basis: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid black;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+nav li {
+  font-size: 1.3rem;
+}
+
+main {
+  min-height: 300px;
+  margin-top: 30px;
+}
+
+footer {
+  min-height: 250px;
+  font-family: Avenir;
+}
+
+div.logo {
+  position: relative;
+  width: 50%
+}
+
+img.logo-blue {
+  padding: 1.5rem;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-basis: 50%;
+  align-items: center;
+}
+
+.hero {
+  position: relative;
+  background-image: url(images/hero.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+  height: 700px;
+  display: flex;
+  flex-basis: 100%;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
+
+.hero h1 {
+  font-size: 40px;
+}
+
+.hero p {
+  font-size: 20px;
+}
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(124, 117, 117, 0.397);
+  position: absolute;
+}
+
+.hero-text {
+  height: 700px;
+  padding-left: 10%;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+}
+
+.hero-text *{
+  color: white;
+}
+
+  button {
+    background-color: rgb(41, 68, 100);
+    height: 50px;
+    width: 150px;
+    font-size: 1.15rem;
+    color: white;
+    border: 1px solid black;
+    border-radius: 8%;
+  }
+
+  button.get-started {
+    width: 280px;
+    height: 75px;
+    color: white;
+    font-size: 25px;
+    /* font-size: 1px; */
+  }
+
+  div.hero-text button.get-started {
+    margin-top: 20px;
+  }
+
+.clinicians {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  background-color: rgb(236, 236, 236);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.clinicians-top {
+  margin: auto;
+  text-align: center;
+  height: 200px;
+}
+
+.clinicians-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  height: 250px;
+  padding-bottom: 10px;
+}
+
+.clinicians-bottom-list {
+  flex-basis: calc(100%/2);
+  display: inline-block;
+}
+
+div.learn-more {
+  background-color: ;
+  display: flex;
+  justify-content: space-between;
+  color: rgb(92, 92, 92);
+  height: 150px;
+}
+
+div.learn-more-left {
+  flex-direction: column;
+  justify-content: center;
+  flex-basis: 50%;
+  padding: 5px;
+  padding-left: 30px;
+}
+
+div.learn-more-right {
+  display: flex;
+  flex-basis: 50%;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 35px;
+}
+
+div.footer-banner {
+  display:flex;
+  flex-wrap: wrap;
+  background-color: #525351;
+  color: white;
+  height: 300px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+div.foot-banner-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 40px;
+  flex-basis: 49%;
+}
+
+img.foot-banner-left-image {
+  width: 130px;
+}
+
+div.foot-banner-left-text > *{
+  line-height: .8;
+  font-size: 13px;
+}
+
+div.foot-banner-right {
+  flex-basis: 49%;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+.company {
+  flex-basis: 28.5%;
+}
+
+.company, .product {
+  position: relative;
+  top: 48px;
+}
+
+.company > *, .product > * {
+  line-height: 1;
+}
+
+
+.product {
+  flex-basis: 28.5%;
+}
+
+div.contact {
+  height: 75px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.contact > * {
+  margin: 10px;
+}
